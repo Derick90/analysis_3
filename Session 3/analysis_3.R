@@ -1,11 +1,6 @@
-setwd( "C:/Users/georg/Documents/analysis_3/analysis_3/Session 3")
-
-x <- 3
-y <- 5
-z <- x*y
-z-x
-xz <- z-z
 # Data Analysis Using R: Session 3
+setwd( "C:/Users/georg/Documents/analysis_3/analysis_3")
+
 
 # Session 3: Data Management
 # Part 1: Common Data Management Options in R
@@ -227,7 +222,7 @@ head(newdata_mtcars_range)
 mysample_mtcars <- mtcars[sample(1:nrow(mtcars), 15, replace = FALSE),]
 
 dim(mysample_mtcars) # shows dimensions of new dataset i.e. 15 rows and 11 columns original was 32 rows
-getwd()
+
 #######################################################
 ###Part 2: Transforming Your Data with dplyr      #####
 #######################################################
@@ -355,4 +350,3 @@ semi_join(x,y)
 
 # anti_join(): Opposite of semi_join
 anti_join(x,y)
-x

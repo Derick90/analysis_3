@@ -1,7 +1,7 @@
 #  Data Analysis Using R - Ploting
 # Introduction: generic plot types in R
 
-setwd("~/Documents/Projects/DataAnalysisUsingR/Session Four")
+setwd("C:/Users/georg/Documents/analysis_3/analysis_3")
 # Examples
 
 x <- 1:10
