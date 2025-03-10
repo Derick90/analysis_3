@@ -12,7 +12,7 @@ library(readxl)
 # A Biologist worried about potential health effects of music  festivals, measured hygiene of 810 concert-goers over  the three days of a music festival. Hygiene measured using standardized index (from 0 to 4): 0 = you smell terribly	4 = you smell beautifully.
 
 
-setwd("~/Documents/Projects/DataAnalysisUsingR/Session Five")
+setwd("C:/Users/georg/Documents/analysis_3/analysis_3")
 
 dlf <- read_excel("MusicFestival.xlsx")
 

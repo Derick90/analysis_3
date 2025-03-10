@@ -1,3 +1,5 @@
+setwd( "C:/Users/georg/Documents/analysis_3/analysis_3/Session 3")
+
 x <- 3
 y <- 5
 z <- x*y
